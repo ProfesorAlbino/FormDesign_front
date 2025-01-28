@@ -14,7 +14,7 @@ export default function Login() {
     try {
       const response = await login({ mail, password });
       if (response.success===true) {
-        localStorage.setItem("user", JSON.stringify(response.data.data));
+        localStorage.setItem("user", JSON.stringify(response.data));
         window.location.href = "/";
       }
       else{

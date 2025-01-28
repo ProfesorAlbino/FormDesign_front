@@ -4,6 +4,7 @@ import api from "./AxiosConfig";
 export const login = async (credentials) => {
   try {
     const response = await api.post("/auth", credentials);
+    console.log(response.data);
     return response.data;
   } catch (error) {
     throw new Error(error.response?.data?.message || "Error de autenticación");
