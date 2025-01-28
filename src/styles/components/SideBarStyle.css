@@ -1,0 +1,95 @@
+/* .sidebar {
+  font-family: var(--font-family-1);
+  background-color: var(--background-color-1);
+  transition: width 0.3s ease;
+  margin-right: 180px;
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+.sidebar-header {
+  background-color: var(--background-color-2);
+}
+
+.sidebar-header-title {
+  color: var(--text-color-1);
+}
+
+.sidebar-nav-item {
+  transition: all 0.3s ease;
+}
+
+.sidebar-nav-item.active {
+  background-color: var(--featured-1);
+  color: var(--text-color-1);
+}
+
+.sidebar-footer {
+  background-color: var(--background-color-2);
+  color: var(--text-color-2);
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    margin-right: 0;
+  }
+} */
+
+.sidebar {
+  font-family: var(--font-family-1);
+  background-color: var(--background-color-3); /* Este será el fondo general del sidebar */
+  transition: width 0.3s ease;
+  height: 100vh;
+  width: 160px;
+  position: fixed;
+}
+
+hr {
+  width: 50%;
+  margin: 10px auto;
+  border: 2px solid var(--featured-1);
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Elimina el background-color para que herede del contenedor */
+}
+
+.sidebar-nav-item {
+  text-decoration: none;
+  color: var(--text-color-1);
+}
+
+.sidebar-nav-item:hover {
+  color: var(--featured-1);
+}
+
+.sidebar-nav-item.active {
+  color: var(--featured-1);
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 70px;
+  }
+
+  .sidebar.collapsed {
+    width: 70px;
+  }
+
+  h4 {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  span{
+    display: none;
+  }
+}

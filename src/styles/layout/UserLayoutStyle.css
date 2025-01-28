@@ -1,0 +1,15 @@
+ main{
+    margin-left: 180px;
+    
+}
+
+.mainContainer{
+    background-color: var(--background-color-1);
+    height: 100vh;
+}
+
+@media (max-width: 768px){
+    main{
+        margin-left: 70px;
+    }
+} 

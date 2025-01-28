@@ -1,0 +1,42 @@
+.card-subtitle{
+    color: var(--text-color-3);
+}
+
+.card-title{
+    color: var(--text-color-1);
+}
+
+.main-content {
+    background-color: var(--background-color-1);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--background-color-3);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: 1px solid var(--background-color-2);
+    color: var(--text-color-1);
+}
+
+.stat-card {
+    border-left: 4px solid var(--featured-1);
+}
+
+.stat-icon {
+    background-color: var(--featured-1);
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
