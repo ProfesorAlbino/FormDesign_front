@@ -1,0 +1,75 @@
+.login-container {
+    background-color: var(--background-color-3);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login-header h1 {
+    color: var(--text-color-1);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.form-label {
+    color: var(--text-color-2);
+    font-weight: 500;
+}
+
+.form-control {
+    background-color: var(--background-color-2);
+    border: none;
+    padding: 0.8rem;
+    color: var(--text-color-1);
+}
+
+.form-control:focus {
+    background-color: var(--background-color-2);
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+.btn-primary {
+    background-color: var(--featured-1);
+    border-color: var(--featured-1);
+    padding: 0.8rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: var(--featured-2);
+    border-color: var(--featured-2);
+}
+
+.forgot-password {
+    color: var(--text-color-3);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-password:hover {
+    color: var(--featured-1);
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--text-color-3);
+}
+
+.register-link a {
+    color: var(--featured-1);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-link a:hover {
+    color: var(--featured-2);
+}

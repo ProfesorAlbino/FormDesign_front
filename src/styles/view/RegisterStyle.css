@@ -1,0 +1,95 @@
+.register-container {
+    background-color: var(--background-color-3);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.register-header h1 {
+    color: var(--text-color-1);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.form-label {
+    color: var(--text-color-2);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    background-color: var(--background-color-2);
+    border: none;
+    padding: 0.8rem;
+    color: var(--text-color-1);
+}
+
+.form-control:focus {
+    background-color: var(--background-color-2);
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+.btn-primary {
+    background-color: var(--featured-1);
+    border-color: var(--featured-1);
+    padding: 0.8rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--featured-2);
+    border-color: var(--featured-2);
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--text-color-3);
+}
+
+.login-link a {
+    color: var(--featured-1);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link a:hover {
+    color: var(--featured-2);
+}
+
+.form-text {
+    color: var(--text-color-3);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.password-requirements {
+    background-color: var(--background-color-2);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.password-requirements h6 {
+    color: var(--text-color-2);
+    margin-bottom: 0.5rem;
+}
+
+.password-requirements ul {
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+}
+
+.password-requirements li {
+    color: var(--text-color-3);
+    font-size: 0.875rem;
+}

@@ -2,13 +2,33 @@ import React from "react";
 import "../styles/view/HomeStyle.css";
 
 export default function Home() {
+
+    const json= JSON.parse(localStorage.getItem("user"));
+
+    const name = json.nombre;
+    const lastName= json.apellido;
+
   return (
     <>
       <div class="container-fluid">
         <div class="row">
 
             <div class="col-md-9 col-lg-10 main-content align-content-center">
-
+                <div>
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Dashboard</h1>
+                        <div class="btn-toolbar mb-2 mb-md-0">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 className="text-center">
+                        Bienvenido a tu panel de control
+                    </h1>
+                    <h2 className="text-center mb-5">
+                        {name} {lastName}
+                    </h2>
+                </div>
                 <div class="px-4">
                     <div class="row g-4 mb-4">
                         <div class="col-12 col-sm-6 col-xl-3">
