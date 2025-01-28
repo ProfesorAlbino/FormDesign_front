@@ -30,7 +30,7 @@ export default function Login() {
         </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
-            <label for="email" className="form-label">
+            <label htmlFor="email" className="form-label">
               Correo electrónico
             </label>
             <input
@@ -43,7 +43,7 @@ export default function Login() {
             />
           </div>
           <div className="mb-3">
-            <label for="password" className="form-label">
+            <label htmlFor="password" className="form-label">
               Contraseña
             </label>
             <input
