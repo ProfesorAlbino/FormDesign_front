@@ -14,7 +14,11 @@ export default function Login() {
     try {
       const response = await login({ mail, password });
       if (response.success===true) {
+        localStorage.setItem("user", JSON.stringify(response.data.data));
         window.location.href = "/";
+      }
+      else{
+        setError(response.message);
       }
     } catch (err) {
       setError(err.message);
