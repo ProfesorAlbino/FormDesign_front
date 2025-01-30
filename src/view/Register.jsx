@@ -42,7 +42,7 @@ export default function Register() {
         <form onSubmit={handleSubmit}>
           <div className="row g-3">
             <div className="col-md-6">
-              <label for="nombre" className="form-label">
+              <label htmlFor="nombre" className="form-label">
                 Nombre
               </label>
               <input
@@ -54,7 +54,7 @@ export default function Register() {
               />
             </div>
             <div className="col-md-6">
-              <label for="apellido" className="form-label">
+              <label htmlFor="apellido" className="form-label">
                 Apellido
               </label>
               <input
@@ -68,7 +68,7 @@ export default function Register() {
           </div>
 
           <div className="mb-3 mt-3">
-            <label for="email" className="form-label">
+            <label htmlFor="email" className="form-label">
               Correo electrónico
             </label>
             <input
@@ -84,7 +84,7 @@ export default function Register() {
           </div>
 
           <div className="mb-3">
-            <label for="password" className="form-label">
+            <label htmlFor="password" className="form-label">
               Contraseña
             </label>
             <input
@@ -97,7 +97,7 @@ export default function Register() {
           </div>
 
           <div className="mb-3">
-            <label for="confirm-password" className="form-label">
+            <label htmlFor="confirm-password" className="form-label">
               Confirmar contraseña
             </label>
             <input

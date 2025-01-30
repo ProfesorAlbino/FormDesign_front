@@ -11,6 +11,9 @@
 
   --featured-1: #3498DB; /*Azul vibrante pero no agresivo para elementos destacados*/
   --featured-2: #2980B9; /*Variante más oscura para hover y transiciones*/
+
+  --error-1: #E74C3C; /*Rojo para errores y alertas*/
+  --error-2: #C0392B; /*Variante más oscura para hover y transiciones*/
 }
 
 *{

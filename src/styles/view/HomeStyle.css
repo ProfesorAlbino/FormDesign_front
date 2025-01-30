@@ -40,3 +40,18 @@
     justify-content: center;
 }
 
+.btnForm {
+    color: var(--featured-1);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.btnForm:hover {
+    background-color: var(--featured-1);
+    color: white;
+}
+
+
